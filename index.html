@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>three.js vr - panorama with depth</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
 
-<head>
-  <title>three.js vr - panorama with depth</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link type="text/css" rel="stylesheet" href="main.css">
-</head>
-
-<body>
-  <div id="container">
-    <div id="info">
-
-      <h1>Visualise se sua cidade está atrás ou à frente de Itacoatiara</h1>
-      <p class="dox">Pandemia de 2020, COVID-19.
-        Este gráfico compensa cada <br>cidade desde a última interseção com a cidade selecionado.</p>
+  <body>
+    <div id="container">
+      <div id="info">
+        <h1>Visualise se sua cidade está atrás ou à frente de Itacoatiara</h1>
+        <p class="dox">
+          Pandemia de 2020, COVID-19. Este gráfico compensa cada <br />cidade
+          desde a última interseção com a cidade selecionado.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <div id="app">
-    <aside>
-      <h2 class="dot">Estatísticas diárias para o <strong>Amazonas</strong> </h2>
-      <p>Todos dos dias os números de casos são atulizados, tendo como base
-        o site do ministerio da saúde, o que para alguns
-        pode parecer inerente a atual reflete no número todos do dia</p>
-    </aside>
+    <div id="app">
+      <aside>
+        <h2 class="dot">
+          Estatísticas diárias para o <strong>Amazonas</strong>
+        </h2>
+        <p>
+          Todos dos dias os números de casos são atulizados, tendo como base o
+          site do ministerio da saúde, o que para alguns pode parecer inerente a
+          atual reflete no número todos do dia
+        </p>
+      </aside>
+    </div>
 
-  </div>
+    <div id="apps">
+      <ul>
+        <li class="pacientes">
+          <div class="blood">750</div>
+          <span>VENCERAM O COVID-19</span>
+        </li>
+        <li class="pacientes">
+          <div class="blood">750</div>
+          <span>VENCERAM O COVID-19</span>
+        </li>
+        <li class="pacientes">
+          <div class="blood">750</div>
+          <span>VENCERAM O COVID-19</span>
+        </li>
+        <li class="pacientes">
+          <div class="blood">750</div>
+          <span>VENCERAM O COVID-19</span>
+        </li>
+      </ul>
+    </div>
+  </body>
 
-  <div id="apps">
-    <ul>
-      <li class="pacientes">
-        <div class="blood">750</div>
-        <span>VENCERAM O COVID-19</span>
-      </li>
-      <li class="pacientes">
-        <div class="blood">750</div>
-        <span>VENCERAM O COVID-19</span>
-      </li>
-      <li class="pacientes">
-        <div class="blood">750</div>
-        <span>VENCERAM O COVID-19</span>
-      </li>
-      <li class="pacientes">
-        <div class="blood">750</div>
-        <span>VENCERAM O COVID-19</span>
-      </li>
-    </ul>
-  </div>
-</body>
-
-<script src="three/examples/js/vr/HelioWebXRPolyfill.js"></script>
-<script src="three/examples/index.js" type="module"></script>
-
-
+  <script src="three/examples/js/vr/HelioWebXRPolyfill.js"></script>
+  <script src="three/examples/index.js" type="module"></script>
 </html>
