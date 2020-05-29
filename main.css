@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
+
+body {
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  font-family: Monospace;
+  overscroll-behavior: none;
+}
+
+#info {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+
+#info h1 {
+  text-align: center;
+  color: #fff;
+  margin-left: 95px;
+  font-family: 'Bungee Inline', cursive;
+  line-height: 55px;
+  word-spacing: 7px;
+  letter-spacing: 1.2px;
+  box-shadow: 15px 0 0 0 #b00020, -5px 0 0 0 #b00020;
+  background: #b00020;
+  display: inline;
+  border-radius: 10px;
+}
+
+.dox {
+  margin-left: 95px;
+}
+
+ #app{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 60px 30px;
+   margin-left: 50px;
+   flex-direction: row;
+/*
+   display: flex;
+    flex-direction: row;
+   align-items: flex-start; */
+
+   margin-left: 50%;
+   width: 90%;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+
+#apps{
+  flex: 1;
+  flex-direction: row;
+
+}
+div ul{
+  display: grid;
+  padding: 10px;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 20px;
+  list-style: none;
+}
+@media(max-width:650px){
+  div ul{
+    grid-template-columns:  1fr;
+  }
+}
+
+li.pacientes{
+  background-color: #b00020;
+  box-shadow: 0 2.5px 5px rgba(253, 253, 253, 0.822), 0 6px 6px rgba(246, 246, 246, 0.692);
+  /* box-shadow: sandybrown; */
+  border-radius: 8px;
+  padding: 10px;
+}
+
+li.pacientes .blood{
+  display: block;
+/*   flex-direction: row;
+ */  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+li.pacientes span{
+  display: block;
+text-align: center;
+font-size: 15px;
+line-height: 20px;
+padding: 20px;
+}
+
+
+
+
