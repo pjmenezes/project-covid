@@ -23,7 +23,7 @@ Adicionar:
 `Machine Language`
 
 
-Criado por [Pedro Menezes](https://glitch.com/)
+Criado por [Pedro Menezes](https://www.instagram.com/pj__menezes/)
 -------------------
 
 \ ゜o゜)ノ
